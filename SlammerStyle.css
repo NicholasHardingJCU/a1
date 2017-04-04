@@ -1,0 +1,349 @@
+
+body {
+	margin: 0;
+}
+
+section {
+	padding: 5% 0;
+}
+
+.signup h1 {
+	font-size: 52px;
+	text-align:center;
+	font-family: 'chicle', sans-serif;
+	color:#021EA0;
+}
+
+.signup input, .signup select {
+	padding: 1em;
+	border-radius:3px;
+	border: 2px solid lightgray;
+	margin-bottom: 1.5em;
+
+}
+.signup form {
+	width:100%;
+}
+
+.signup button {
+	padding: 1em 3em;
+	border-radius:3px;
+	border: 2px solid lightgray;
+	margin-bottom: 1.5em;
+	font-family: 'chicle', sans-serif;
+}
+.signup p {
+	font-family: 'chicle', sans-serif;
+}
+
+.container {
+	max-width:1280px;
+	margin: 0 auto;
+}
+
+.guidelines {
+	font-family: 'chicle', sans-serif;
+	font-size:24px;
+	margin: auto 0;
+}
+
+.guidelines p {
+	margin-top: 10px;
+}
+
+.text {
+	max-width: 900px;
+	font-size: 1.1em;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.navigation {
+    padding: 1em 0;
+    background-color: #021EA0;
+	font-family: 'chicle', sans-serif;
+	font-size: 18px;
+	z-index: 3;
+	top:0;
+	right:0;
+	left:0;
+	position:fixed;
+
+
+}
+
+.whocanplay .container {
+	font-family: 'chicle', sans-serif;
+	font-size:24px;
+	margin: 2em 0;
+}
+
+.whocanplay .text {
+	color:gold;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.whocanplay h1 {
+
+}
+
+.footer {
+  background-color:#444;
+  width:100%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  text-align:center;
+  z-index:3;
+}
+
+.footer li a {
+	text-decoration: none;
+    color: white;
+	text-align:center;
+ 
+}
+
+.footer li {
+	padding: 7px;
+	display:block;
+	background-color: #444;
+	text-align:center;
+	display:inline;
+
+
+}
+
+.footer ul {
+	color:white;
+	display:inline;
+	text-align:center;
+}
+
+.footer p {
+	color:white;
+	text-align:center;
+	font-size:0.8em;
+}
+#announcements {
+	list-style-type: circle;
+	color: #021EA0;
+	font-family: 'chicle', sans-serif;
+	text-align: left;
+	width: 300px;
+	border: 10px black;
+	padding: 12px;
+	margin: 12px;
+	left:0;
+}
+
+#announcements li {
+	margin: 1em 0;
+}
+
+nav {
+	position:fixed;
+}
+
+.title {
+	background-color: transparent;
+	color: #021EA0;
+	font-family: 'chicle', sans-serif;
+	position: absolute;
+	margin-bottom: 0;
+	margin-right:0;
+	padding: 1em;
+	right:0;
+	bottom:0;
+}
+
+.title h1 {
+	font-size: 80px;
+}
+
+.feature {
+  height:800px;
+  width:100%;
+  background-color: black;
+  background: url('images/Resized/net2.jpg') no-repeat center center;
+  background-size: cover;
+  position:relative;
+}
+
+
+.feattwo {
+  height:800px;
+  width:100%;
+  background-color: black;
+  background: url('images/sand.jpg') no-repeat center center;
+  background-size: cover;
+  position:relative;
+}
+
+.call-to-action {
+  color:white;
+  text-align:center;
+  text-decoration:none;
+}
+
+.call-to-action div {
+  color:white;
+  height: 80px;
+  width: 200px;
+  padding: 16px;
+  background-color:limegreen;
+  border-radius:15px 50px;
+  transition: all .2s ease-in-out;
+}
+
+.call-to-action:hover div {
+	transform: scale(1.1);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+li {
+	display:block;
+
+	
+}
+
+
+.navigation li a {
+	text-decoration: none;
+    color:gold;
+    text-align: center;
+    padding: 14px 16px;
+	display:block;
+	float:right;
+	
+
+}
+
+.navigation li a:hover {
+    color:white;
+}
+
+.navigation li a:active {
+	color:white;
+}
+
+.navtitle {
+	background-color:transparent;
+	float:left;
+    text-align: center;
+	display:block;
+	font-size:2em;
+	margin:0;
+}
+
+.navtitle a {
+	color:white;
+	text-decoration:none;
+}
+
+.navtitle a:hover {
+	color:gold;
+}
+
+.navtitle li a:hover {
+	background-color:transparent;
+	color:white;
+}
+
+.title {
+	text-align: center;
+	background-color: transparent;
+	color: #021EA0;
+	float:left;
+	font-family: 'chicle', sans-serif;
+	position: absolute;
+	margin-bottom: 0;
+	margin-right:0;
+	padding: 1em;
+	
+	
+}
+
+ol {
+	color:black;
+	text-align: left;
+	list-style-type:circle;
+	background-color:#333;
+	
+}
+
+ul {
+	list-style-type:circle;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+h2 {
+	text-align:center;
+	font-size:40px;
+	font-family: 'chicle', sans-serif;
+	margin:0;
+	padding:15px;
+}
+
+h3 {
+	color:gold;
+	font-family: 'chicle', sans-serif;
+	font-size: 30px;
+	text-align:center;
+	padding: 5px;
+	background-color: #021EA0;
+}
+table.standingstable {
+	
+  width: 80%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+  margin: 0 auto;
+
+}
+
+table.standingstable td, table.standingstable th {
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 5px;
+}
+
+table.standingstable thead {
+  background-color: #6464ff;
+}
+
+.othertitles {
+	font-size: 32px;
+	text-align:center;
+	font-family: 'chicle', sans-serif;
+	color:white;
+	margin-top: 4em;
+}
+
+.whitebackgroundtitles {
+	font-size: 32px;
+	text-align:center;
+	font-family: 'chicle', sans-serif;
+	color: #021EA0;
+	margin-top: 4em;
+}
