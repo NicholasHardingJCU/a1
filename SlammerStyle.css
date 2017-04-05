@@ -31,6 +31,7 @@ section {
 	border: 2px solid lightgray;
 	margin-bottom: 1.5em;
 	font-family: 'chicle', sans-serif;
+	font-size:1em;
 }
 .signup p {
 	font-family: 'chicle', sans-serif;
@@ -98,6 +99,27 @@ section {
 	color:hotpink;
 }
 
+.pagestylecontact .container {
+	font-family: 'chicle', sans-serif;
+	font-size:24px;
+	margin: 2em 0;
+}
+
+.pagestylecontact .text {
+	color:gold;
+	background-color:rgba(0,0,0,0.7);
+	border-radius:25px;
+	padding:1em;
+}
+
+.pagestylecontact a {
+	color:white;
+}
+
+.pagestylecontact a:hover {
+	color:hotpink;
+}
+
 .footer {
   background-color:#444;
   width:100%;
@@ -136,6 +158,9 @@ section {
 	font-size:0.8em;
 }
 #announcements {
+  	position: absolute;
+  	left: 4%;
+  	top: 15%;
 	list-style-type: circle;
 	color: #021EA0;
 	font-family: 'chicle', sans-serif;
@@ -144,9 +169,6 @@ section {
 	border: 10px black;
 	padding: 12px;
 	margin: 12px;
-	position:relative;
-
-	
 }
 
 #announcements li {
@@ -183,7 +205,7 @@ nav {
 }
 
 .feature {
-  height:800px;
+  height:900px;
   width:100%;
   background-color: black;
   background: url('images/Resized/net2.jpg') no-repeat center center;
@@ -193,7 +215,7 @@ nav {
 
 
 .feattwo {
-  height:1000px;
+  height:900px;
   width:100%;
   background-color: black;
   background: url('images/Resized/sand-extend.jpg') no-repeat center center;
@@ -362,5 +384,4 @@ table.standingstable thead {
 	text-align:center;
 	font-family: 'chicle', sans-serif;
 	color: #021EA0;
-	margin-top: 4em;
 }
