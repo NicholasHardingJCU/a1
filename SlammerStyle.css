@@ -222,9 +222,11 @@ nav {
 .feattwo {
   width:100%;
   background-color: black;
-  background: url('images/Resized/sand-extend2.jpg') no-repeat center center;
+  background: url('images/Resized/sand-extend2.jpg') no-repeat;
   position:relative;
-  padding-top: 5em;
+  background-size:cover;
+  padding-top: 10em;
+  padding-bottom:4.5em;
 }
 
 .twovstwoimg {
@@ -235,6 +237,23 @@ nav {
 .femalespikeimg {
 	padding:2em;
 	margin-right:13em;
+}
+
+.femalespikeimg p {
+	color:gold;
+	background-color:rgba(0,0,0,0.7);
+	padding:1em;
+	font-size:1em;
+	font-weight:bold;
+
+}
+
+.femalespikeimg a {
+	color:white;
+}
+
+.femalespikeimg a:hover {
+	color:hotpink;
 }
 
 .call-to-action {
@@ -402,6 +421,12 @@ table.standingstable thead {
 	background-color:rgba(0,0,0,0.8);
 	border-radius:25px;
 	padding:0.4em;
+	margin-bottom:1em;
+
+}
+
+.leaderboard {
+  padding-bottom:5em;
 }
 
 .whitebackgroundtitles {
