@@ -184,7 +184,6 @@ section {
 	padding:1em;
 	font-size:1.2em;
 }
-}
 
 #announcements li {
 	margin: 1em 0;
@@ -226,6 +225,16 @@ nav {
   background: url('images/Resized/sand-extend2.jpg') no-repeat center center;
   position:relative;
   padding-top: 5em;
+}
+
+.twovstwoimg {
+	padding:2em;
+	margin-right:11em;
+}
+
+.femalespikeimg {
+	padding:2em;
+	margin-right:13em;
 }
 
 .call-to-action {
